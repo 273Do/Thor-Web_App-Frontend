@@ -1,0 +1,8 @@
+FROM node:21-alpine
+
+ENV APP /app
+WORKDIR $APP
+
+COPY . $APP
+
+EXPOSE 3000
